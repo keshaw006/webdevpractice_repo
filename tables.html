@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        /* A simple style for visibility */
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <table border="1">
+        <caption>
+            <h1>This is a practice table</h1>
+        </caption>
+        
+        <colgroup>
+            <col span="2" style="background-color: #ff9999;"/> <col span="2" style="background-color: #9999ff;"/> </colgroup>
+        
+        <thead>
+            <tr>
+                <th rowspan="2">COL1 (Rowspan 2)</th>
+                <th>COL2</th>
+                <th>COL3</th>
+                <th>COL4</th>
+            </tr>
+            <tr>
+                <th>SUB-COL2</th>
+                <th>SUB-COL3</th> 
+                <th>SUB-COL4</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td colspan="2">13 (Colspan 2)</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+    </table>
+</body>
+</html>
